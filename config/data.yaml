@@ -1,0 +1,26 @@
+names:
+  - ball
+
+nc: 1
+
+
+path: D:/MyPrograms/Python/BallDetection/data/relevant_data
+train: train
+val: valid
+test: test
+
+
+model:
+  type: yolov8s
+  img_size: 512
+  batch: 16
+  workers: 8
+  single_cls: True
+  verbose: True
+  plots: True
+  fraction: 0.1
+
+
+
+output:
+  save_dir: outputs/
