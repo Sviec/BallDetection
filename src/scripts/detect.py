@@ -5,7 +5,7 @@ from src.utils.dataset import load_yaml_config
 from config.paths import YAML_CONFIG_PATH, MODEL_PATH
 
 
-def detect(video_path, output_video_path, image_dir_path):
+def detect(video_path, output_video_path):
     # Путь к конфигурации
     config_path = YAML_CONFIG_PATH
 
